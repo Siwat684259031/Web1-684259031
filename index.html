@@ -9,11 +9,15 @@
 
     <!--Intrnal CSS-->
     <style>
+        html{
+            scroll-behavior: smooth ;
+        }
         body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: rgb(180, 189, 190);
             margin: 30px;
-            scroll-behavior: smooth;
+
+            line-height: 1.5 ;
         }
 
         h1 {
@@ -29,6 +33,21 @@
             background-color: aliceblue;
             padding: 15px;
             border-left: 3px solid rgb(72, 20, 194);
+
+            white-space: pre-wrap;
+            font-size: 16px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: #f7107c;
+            /*text-decoration: underline ;*/
+        }
+
+        .text-center{
+            text-align: center;
         }
     </style>
 
@@ -93,8 +112,9 @@
     <hr>
 
     <h2 id="Heading">Heading</h2>
-    <p>workshop</p>
     <p>HTML headings are defined with the &lt;h1&lt; to &lt;h6&lt; tags...</p>
+    <a href="w03-01-heading.html">Workshop 1 | </a>
+    <a href="w03-02-heading.html">Workshop 2</a>
     <pre>
         - &lt;h1&gt;: Heading 1
         - &lt;h2&gt;: Heading 2
@@ -143,7 +163,7 @@
     <h2 id="Links">Creating Links</h2>
     <p>workshop</p>
     <p>HTML links are defined with the <a> tag...</p>
-    <pre>- &lt;a href="url" target=""&gt;Link text&lt;/a&gt;
+    <pre>- &lt;a&lt; href="url" target=""&gt;Link text&lt;/a&gt;
     - The href attribute specifies the URL of the page the link goes to
     - The target attribute specifies where to open the linked document
     - _self: Open the linked document in the same window/tab
@@ -314,6 +334,12 @@ radio, checkbox, date, file
     <pre>workshop1 : rabbit
 workshop2 : Login</pre>
     <a href="#top">Back to top</a>
+    <hr>
+
+    <div  class="text-center">
+        <a href="https://www.w3schools.com/html/default.asp">Learn more about HTML</a>
+        <P>&copy; 2026 Created by: 684259031 :Siwat</P>
+    </div>
     
 
 </body>
