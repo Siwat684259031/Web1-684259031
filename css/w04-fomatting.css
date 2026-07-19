@@ -64,10 +64,11 @@ nav a:hover {
 /*  Hero section */
 
 .hero {
-  display: flex;
-  gap: 10PX;
+  padding: 45px 70px 25px;
 
-  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20PX;
 }
 
 .hero-icon {
@@ -106,8 +107,8 @@ nav a:hover {
 .container {
   /* max-width: 1200px; */
   width: 100%;
-  margin: 0 auto;
-  padding: 40px;
+  /* margin: 0 auto; */
+  padding: 0 60px;
 
   /* background-color: rgb(110, 205, 243); */
 }
@@ -159,6 +160,9 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
+
+.purple-bg {background-color: #5734f3;}
+.purple-text {color: #5734f3;}
 
 .card-body {
   padding: 20px;
@@ -214,3 +218,32 @@ nav a:hover {
   display: inline-block;
   width: 30px;
 }
+
+/* card 3 */
+
+.activity-list{ list-style: none;}
+
+.activity-list li{ 
+  margin-bottom: 20px;
+}
+
+.chack{
+  /* background-color: #9f12fd; */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+
+  /* padding: 10px; */
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  height: 38px;
+  width: 38px;
+}
+
+.chack-blue{background-color: #14f0f0;}
+.chack-green{background-color: #2ef014;}
+.chack-orange{background-color: #fc5c00;}
+.chack-red{background-color: #f01414;}
+.chack-pink{background-color: #fa03c4;}
