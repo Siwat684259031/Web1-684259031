@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit',Arial, Helvetica, sans-serif;
+    background-color: rgb(198, 253, 246);
+
+    color: rgb(48, 47, 47);
+    line-height: 1.6;
+}
+
+.container{
+    /* border: 1px solid rgb(93, 0, 241);
+    padding: 15px;
+    margin: 15px; */
+}
+
+/* ==================================
+            Hearder Section
+=====================================*/
+.site-header{
+    /* border: 1px solid red;
+    padding: 15px;
+    margin: 15px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(110deg , rgb(14, 1, 88), rgb(25, 8, 255));
+    padding: 8px 20px;
+}
+
+.brand {
+    /* border: 1px solid rgb(255, 0, 191);
+    padding: 15px;
+    margin: 15px; */
+
+    display:  flex;
+    align-items: center;
+    gap: 20px;
+
+    color: white;
+}
+
+.brand-logo {
+    background-color: rgb(109, 128, 236);
+
+    border-radius: 50%;
+
+    font-size: 30px;
+
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-text h2 {
+    font-size: 24px;
+}
+
+.brand-text p {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+/* navbar */
+.main-nav {
+    /* border: 1px solid rgb(255, 0, 191); */
+    padding: 15px;
+    margin: 15px;
+}
+
+.nav-list {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: aliceblue;
+    text-decoration: none;
+
+    padding: 8px 15px;
+    border-radius: 8px;
+
+    transition: 1.2s;
+}
+.nav-list a:hover {
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+
+/* ==================================
+            Main Section
+=====================================*/
+.main-layout{
+    /* border: 1px solid red;
+    padding: 15px;
+    margin: 15px; */
+
+    display: grid;
+    /* grid-template-columns: 390fr 1fr; */
+    grid-template-columns: 70% 30%;
+
+    padding: 20px 22px;
+}
+
+/* left content */
+.left-content{
+    /* border: 1px solid rgb(251, 255, 0);
+    padding: 15px;
+    margin: 15px; */
+}
+
+.hero {
+    /* border: 1px solid rgb(32, 151, 3);
+    padding: 15px;
+    margin: 15px; */
+
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr;
+
+    padding: 26px 36px;
+    background: linear-gradient(90deg , rgb(186, 171, 204) , blue);
+
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(52, 4, 83, 0.842);
+
+    align-items: center;
+
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: rgb(86, 195, 245);
+    line-height: 1.8;
+}
+
+.hero-text p {
+    font-size: 22px;
+    color: rgb(9, 97, 119);
+    font-weight: 600;
+}
+
+.hero-photo img {
+    width: 400px;
+    height: 200px;
+    border: 3px solid rgba(247, 248, 153, 0.596);
+    border-radius: 16px;
+
+    box-shadow: 0 4px 8px rgb(116, 139, 11);
+
+    object-fit: cover ;
+
+    /*
+    object-fit: contain ➡️เห็นภาพครบ รักษาสัดส่วน (อาจมีขอบว่าง)
+    object-fit: fill ➡️ยืดภาพให้เต็มกล่อง ภาพอาจบิด (สัดส่วนเพี้ยน)
+    object-fit: cover ➡️ครอปภาพให้เต็มกล่อง รักษาสัดส่วน บางส่วนของภาพจะถูกตัดออก
+    */
+}
+
+.card{
+    border: 1px solid rgb(32, 151, 3);
+    padding: 15px;
+    margin: 15px;
+}
+
+/* right sidebar */
+.right-sidebar {
+    border: 1px solid rgb(251, 255, 0);
+    padding: 15px;
+    margin: 15px;
+}
+
+.side-card{}
+
+.submit-card{}
+
+/* ==================================
+            Footer Section
+=====================================*/
+.tip-box{
+    border: 1px solid red;
+    padding: 15px;
+    margin: 15px;
+}
