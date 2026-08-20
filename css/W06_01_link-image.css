@@ -1,19 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Kanit',Arial, Helvetica, sans-serif;
-    background-color: rgb(198, 253, 246);
+  font-family: "Kanit", Arial, Helvetica, sans-serif;
+  background-color: rgb(198, 253, 246);
 
-    color: rgb(48, 47, 47);
-    line-height: 1.6;
+  color: rgb(48, 47, 47);
+  line-height: 1.6;
 }
 
-.container{
-    /* border: 1px solid rgb(93, 0, 241);
+.container {
+  /* border: 1px solid rgb(93, 0, 241);
     padding: 15px;
     margin: 15px; */
 }
@@ -21,176 +21,279 @@ body {
 /* ==================================
             Hearder Section
 =====================================*/
-.site-header{
-    /* border: 1px solid red;
+.site-header {
+  /* border: 1px solid red;
     padding: 15px;
     margin: 15px; */
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    background: linear-gradient(110deg , rgb(14, 1, 88), rgb(25, 8, 255));
-    padding: 8px 20px;
+  background: linear-gradient(110deg, rgb(14, 1, 88), rgb(25, 8, 255));
+  padding: 8px 20px;
 }
 
 .brand {
-    /* border: 1px solid rgb(255, 0, 191);
+  /* border: 1px solid rgb(255, 0, 191);
     padding: 15px;
     margin: 15px; */
 
-    display:  flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 
-    color: white;
+  color: white;
 }
 
 .brand-logo {
-    background-color: rgb(109, 128, 236);
+  background-color: rgb(109, 128, 236);
 
-    border-radius: 50%;
+  border-radius: 50%;
 
-    font-size: 30px;
+  font-size: 30px;
 
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .brand-text h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .brand-text p {
-    font-size: 14px;
-    opacity: 0.5;
+  font-size: 14px;
+  opacity: 0.5;
 }
 
 /* navbar */
 .main-nav {
-    /* border: 1px solid rgb(255, 0, 191); */
-    padding: 15px;
-    margin: 15px;
+  /* border: 1px solid rgb(255, 0, 191); */
+  padding: 15px;
+  margin: 15px;
 }
 
 .nav-list {
-    list-style-type: none;
+  list-style-type: none;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .nav-list a {
-    color: aliceblue;
-    text-decoration: none;
+  color: aliceblue;
+  text-decoration: none;
 
-    padding: 8px 15px;
-    border-radius: 8px;
+  padding: 8px 15px;
+  border-radius: 8px;
 
-    transition: 1.2s;
+  transition: 1.2s;
 }
 .nav-list a:hover {
-    background-color: rgba(255, 255, 255, 0.445);
+  background-color: rgba(255, 255, 255, 0.445);
 }
-
 
 /* ==================================
             Main Section
 =====================================*/
-.main-layout{
-    /* border: 1px solid red;
+.main-layout {
+  /* border: 1px solid red;
     padding: 15px;
     margin: 15px; */
 
-    display: grid;
-    /* grid-template-columns: 390fr 1fr; */
-    grid-template-columns: 70% 30%;
+  display: grid;
+  /* grid-template-columns: 390fr 1fr; */
+  grid-template-columns: 70% 30%;
 
-    padding: 20px 22px;
+  padding: 20px 22px;
 }
 
 /* left content */
-.left-content{
-    /* border: 1px solid rgb(251, 255, 0);
+.left-content {
+  /* border: 1px solid rgb(251, 255, 0);
     padding: 15px;
     margin: 15px; */
 }
 
 .hero {
-    /* border: 1px solid rgb(32, 151, 3);
+  /* border: 1px solid rgb(32, 151, 3);
     padding: 15px;
     margin: 15px; */
 
-    display: grid;
-    grid-template-columns: 1.5fr 0.8fr;
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr;
 
-    padding: 26px 36px;
-    background: linear-gradient(90deg , rgb(186, 171, 204) , blue);
+  
+  background: linear-gradient(90deg, rgb(186, 171, 204), rgb(49, 49, 233));
 
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(52, 4, 83, 0.842);
+  padding: 26px 36px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(52, 4, 83, 0.842);
 
-    align-items: center;
-
+  align-items: center;
 }
 
 .hero-text h1 {
-    font-size: 36px;
-    color: rgb(86, 195, 245);
-    line-height: 1.8;
+  font-size: 36px;
+  color: rgb(28, 64, 226);
+  line-height: 1.8;
 }
 
 .hero-text p {
-    font-size: 22px;
-    color: rgb(9, 97, 119);
-    font-weight: 600;
+  font-size: 22px;
+  color: rgb(9, 97, 119);
+  font-weight: 600;
 }
 
 .hero-photo img {
-    width: 400px;
-    height: 200px;
-    border: 3px solid rgba(247, 248, 153, 0.596);
-    border-radius: 16px;
+  width: 400px;
+  height: 200px;
+  border: 3px solid rgba(247, 248, 153, 0.596);
+  border-radius: 16px;
 
-    box-shadow: 0 4px 8px rgb(116, 139, 11);
+  box-shadow: 0 4px 8px rgb(116, 139, 11);
 
-    object-fit: cover ;
+  object-fit: cover;
 
-    /*
+  /*
     object-fit: contain ➡️เห็นภาพครบ รักษาสัดส่วน (อาจมีขอบว่าง)
     object-fit: fill ➡️ยืดภาพให้เต็มกล่อง ภาพอาจบิด (สัดส่วนเพี้ยน)
     object-fit: cover ➡️ครอปภาพให้เต็มกล่อง รักษาสัดส่วน บางส่วนของภาพจะถูกตัดออก
     */
 }
+/*================= link Example============== */
+.card {
+  border: 1px solid rgb(148, 196, 224);
+  background-color: aliceblue;
+  border-radius: 15px;
 
-.card{
-    border: 1px solid rgb(32, 151, 3);
-    padding: 15px;
-    margin: 15px;
+  padding: 26px 36px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(52, 4, 83, 0.842);
+
+  margin-top: 20px;
 }
+
+.card-header-title {
+  /* background-color: aqua; */
+}
+.card-header-title h2 {
+  color: rgb(28, 64, 226);
+}
+.card-body-grid {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 20px;
+}
+
+/* กล่อง link ด้านซ้าย */
+.result-panel, .code-panel {
+  border: 1px solid rgb(148, 196, 224);
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.result-panel-header, .code-panel-header{
+  background-color: rgb(155, 214, 241);
+  color: rgb(28, 64, 226);
+  font-weight: bold;
+
+  padding: 0px 20px;
+}
+
+.reault-panel-body{
+  padding: 5px 20px 10px 20px;
+  line-height: 2;
+}
+.reault-panel-body a{
+  display: block;
+
+  color: rgb(28, 28, 206);
+}
+.reault-panel-body a:hover{
+  color: rgb(245, 3, 3);
+}
+.mail-box{
+  background-color: rgb(28, 64, 226);
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.back-btn{
+  border: 2px solid rgb(28, 64, 226);
+  border-radius: 10px;
+
+  display: inline-block !important;
+
+  padding: 0px 20px;
+
+  text-decoration: none;
+}
+
+
+/* กล่อง link ด้านขวา */
+.code-panel {
+  background-color: black;
+
+ 
+}
+
+.code-panel-body{
+  color: aliceblue;
+
+  padding: 10px;
+
+}
+.code-list {
+
+padding: 0 20px;
+}
+.tag {color: red;}
+.attr {color: rgb(224, 247, 18);}
+.value{color: rgb(98, 240, 117);}
+
+
+/*================= link Example============== */
+ .result-panel-body-3g{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 20px;
+
+  padding: 0 20px;
+  align-items: baseline;
+  text-align: center;
+ }
+ 
+
+
+
+
 
 /* right sidebar */
 .right-sidebar {
-    border: 1px solid rgb(251, 255, 0);
-    padding: 15px;
-    margin: 15px;
+  border: 1px solid rgb(251, 255, 0);
+  padding: 15px;
+  margin: 15px;
 }
 
-.side-card{}
+.side-card {
+}
 
-.submit-card{}
+.submit-card {
+}
 
 /* ==================================
             Footer Section
 =====================================*/
-.tip-box{
-    border: 1px solid red;
-    padding: 15px;
-    margin: 15px;
+.tip-box {
+  border: 1px solid red;
+  padding: 15px;
+  margin: 15px;
 }
