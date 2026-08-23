@@ -284,7 +284,96 @@ padding: 0 20px;
 }
 
 .side-card {
+  border: 1px solid rgb(148, 196, 224);
+  background-color: aliceblue;
+
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(52, 4, 83, 0.842);
+  margin-bottom: 15px;
+
 }
+
+.side-card-heaber{
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(28, 64, 226);
+
+  margin: 10px;
+}
+
+.body-side-card1{
+}
+.card-body-list{
+  display: flex;
+  margin-bottom: 10px;
+}
+.list-number{
+  color: aliceblue;
+  font-weight: bold;
+  background-color: rgb(28, 64, 226);
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+
+  border-radius: 50% ;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding: 7px;
+}
+
+
+.body-side-card2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  margin: 10px;
+}
+.body-side-card2 p{
+  text-align: center;
+  border-radius: 20px;
+
+  margin: 6px;
+}
+
+.body-side-card-tag1{
+  color: rgb(16, 30, 224);
+  background-color: rgba(47, 17, 158, 0.438);
+}
+.body-side-card-tag2{
+  color: rgb(15, 88, 43);
+  background-color: rgba(8, 160, 114, 0.637);
+}
+.body-side-card-tag3{
+  color: rgb(12, 44, 3);
+  background-color: rgba(0, 245, 61, 0.712);
+}
+.body-side-card-tag4{
+  color: rgb(235, 86, 0);
+  background-color: rgba(219, 141, 24, 0.712);
+}
+.body-side-card-tag5{
+  color: rgb(71, 8, 122);
+  background-color: rgba(135, 26, 179, 0.637);
+}
+.body-side-card-tag6{
+  color: rgb(255, 0, 0);
+  background-color: rgba(214, 59, 59, 0.932);
+}
+.body-side-card-tag7{
+  color: rgb(3, 66, 45);
+  background-color: rgba(8, 218, 155, 0.801);
+}
+.body-side-card-tag8{
+  color: rgb(230, 151, 4);
+  background-color: rgba(204, 173, 0, 0.658);
+}
+
+
+
 
 .submit-card {
 }
